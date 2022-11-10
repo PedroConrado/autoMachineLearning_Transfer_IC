@@ -1,6 +1,7 @@
 from tabnanny import verbose
 import tensorflow as tf
 from Base.createModel import createModel
+import warnings
 
 def transfer(
   num_classes, 
@@ -15,9 +16,13 @@ def transfer(
   fineTune = False,
   fineTuneEpochs = 3,
   fineTuneLearningRate = 0.00001,
-  baseModelList = ['VGG19', 'Xception', 'ResNet152V2', 'InceptionV3']
+  baseModelList = ['VGG19', 'Xception', 'ResNet152V2', 'InceptionV3'],
+  verbose = True
 ):
   
+  if(not verbose):
+    warnings.filterwarnings("ignore")
+
   modelsList = []
   [modelsList.append([createModel(num_classes, img_width, img_height, baseModel), 0]) for baseModel in baseModelList]
 
