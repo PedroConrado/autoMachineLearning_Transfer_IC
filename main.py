@@ -6,7 +6,7 @@ IMG_WIDTH   = 224
 BATCH_SIZE  = 16
 SEED        = 1234
 
-strPath = ".\Inside"
+strPath = ""
 
 train_ds = tf.keras.preprocessing.image_dataset_from_directory(
   strPath,
@@ -81,4 +81,4 @@ allModelsList = [
 'EfficientNetV2M',
 'EfficientNetV2L']
 
-model = transfer(num_classes, IMG_WIDTH, IMG_HEIGHT, train_ds, val_ds, metr, opti, loss, trainingEpochs=5, fineTune = True, fineTuneLearningRate=0.000001, baseModelList=allModelsList)
+model = transfer(num_classes, IMG_WIDTH, IMG_HEIGHT, train_ds, val_ds, metr, opti, loss, trainingEpochs=5, fineTune = True, fineTuneLearningRate=0.000001, baseModelList=allModelsList, verbose=False)

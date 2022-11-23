@@ -1,0 +1,165 @@
+32  models remaining
+EVALUATING:  Xception
+3/3 [==============================] - 10s 3s/step - loss: 3.5841 - accuracy: 0.4667 - val_loss: 1.5838 - val_accuracy: 0.7273
+EVALUATING:  VGG16
+3/3 [==============================] - 16s 6s/step - loss: 0.9693 - accuracy: 0.4889 - val_loss: 0.5556 - val_accuracy: 1.0000
+EVALUATING:  VGG19
+3/3 [==============================] - 20s 7s/step - loss: 0.9813 - accuracy: 0.5111 - val_loss: 0.6490 - val_accuracy: 0.6364
+EVALUATING:  ResNet50
+3/3 [==============================] - 11s 3s/step - loss: 2.3433 - accuracy: 0.4222 - val_loss: 1.5720 - val_accuracy: 0.6364
+EVALUATING:  ResNet50V2
+WARNING:tensorflow:5 out of the last 13 calls to <function Model.make_train_function.<locals>.train_function at 0x000001CF1D7F0280> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+3/3 [==============================] - ETA: 0s - loss: 5.0637 - accuracy: 0.4222WARNING:tensorflow:5 out of the last 5 calls to <function Model.make_test_function.<locals>.test_function at 0x000001CF41E5C3A0> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+3/3 [==============================] - 10s 2s/step - loss: 5.0637 - accuracy: 0.4222 - val_loss: 0.8925 - val_accuracy: 0.7273
+EVALUATING:  ResNet101
+WARNING:tensorflow:5 out of the last 13 calls to <function Model.make_train_function.<locals>.train_function at 0x000001CF41E5DAB0> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+3/3 [==============================] - ETA: 0s - loss: 2.0144 - accuracy: 0.4889WARNING:tensorflow:6 out of the last 6 calls to <function Model.make_test_function.<locals>.test_function at 0x000001CF41E5E170> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+3/3 [==============================] - 21s 5s/step - loss: 2.0144 - accuracy: 0.4889 - val_loss: 0.4575 - val_accuracy: 0.8182
+EVALUATING:  ResNet101V2
+3/3 [==============================] - 19s 5s/step - loss: 12.4581 - accuracy: 0.4889 - val_loss: 7.1339 - val_accuracy: 0.6364
+EVALUATING:  ResNet152
+3/3 [==============================] - 30s 7s/step - loss: 2.8557 - accuracy: 0.5111 - val_loss: 4.2101 - val_accuracy: 0.3636
+EVALUATING:  ResNet152V2
+3/3 [==============================] - 27s 6s/step - loss: 6.7669 - accuracy: 0.5333 - val_loss: 8.9893 - val_accuracy: 0.6364
+EVALUATING:  InceptionV3
+3/3 [==============================] - 10s 2s/step - loss: 10.5802 - accuracy: 0.4889 - val_loss: 1.6218 - val_accuracy: 0.7273
+EVALUATING:  InceptionResNetV2
+3/3 [==============================] - 25s 5s/step - loss: 7.7021 - accuracy: 0.4444 - val_loss: 1.1697 - val_accuracy: 0.8182
+EVALUATING:  MobileNet
+3/3 [==============================] - 4s 827ms/step - loss: 4.2542 - accuracy: 0.5556 - val_loss: 0.4697 - val_accuracy: 0.7273
+EVALUATING:  MobileNetV2
+3/3 [==============================] - 6s 994ms/step - loss: 4.7637 - accuracy: 0.4889 - val_loss: 8.8890 - val_accuracy: 0.3636
+EVALUATING:  DenseNet121
+3/3 [==============================] - 17s 4s/step - loss: 3.6498 - accuracy: 0.4444 - val_loss: 0.2998 - val_accuracy: 0.9091
+EVALUATING:  DenseNet169
+3/3 [==============================] - 22s 4s/step - loss: 4.9733 - accuracy: 0.5556 - val_loss: 9.0698 - val_accuracy: 0.3636
+EVALUATING:  DenseNet201
+3/3 [==============================] - 27s 5s/step - loss: 3.0113 - accuracy: 0.5556 - val_loss: 1.1692 - val_accuracy: 0.4545
+EVALUATING:  NASNetMobile
+3/3 [==============================] - 29s 4s/step - loss: 2.6360 - accuracy: 0.6222 - val_loss: 0.1893 - val_accuracy: 0.9091
+EVALUATING:  EfficientNetB0
+3/3 [==============================] - 15s 2s/step - loss: 2.0363 - accuracy: 0.4667 - val_loss: 1.7901 - val_accuracy: 0.6364
+EVALUATING:  EfficientNetB1
+3/3 [==============================] - 18s 3s/step - loss: 2.5709 - accuracy: 0.4889 - val_loss: 1.8517 - val_accuracy: 0.6364
+EVALUATING:  EfficientNetB2
+3/3 [==============================] - 18s 3s/step - loss: 1.6323 - accuracy: 0.5333 - val_loss: 1.4344 - val_accuracy: 0.6364
+EVALUATING:  EfficientNetB3
+3/3 [==============================] - 19s 3s/step - loss: 2.3846 - accuracy: 0.5333 - val_loss: 0.4817 - val_accuracy: 0.8182
+EVALUATING:  EfficientNetB4
+3/3 [==============================] - 27s 5s/step - loss: 2.8847 - accuracy: 0.5111 - val_loss: 1.4509 - val_accuracy: 0.3636
+EVALUATING:  EfficientNetB5
+3/3 [==============================] - 32s 6s/step - loss: 3.0989 - accuracy: 0.5111 - val_loss: 0.7673 - val_accuracy: 0.3636
+EVALUATING:  EfficientNetB6
+3/3 [==============================] - 40s 7s/step - loss: 1.3071 - accuracy: 0.5556 - val_loss: 4.3014 - val_accuracy: 0.3636
+EVALUATING:  EfficientNetB7
+3/3 [==============================] - 48s 9s/step - loss: 2.9162 - accuracy: 0.4667 - val_loss: 0.3984 - val_accuracy: 0.9091
+EVALUATING:  EfficientNetV2B0
+3/3 [==============================] - 12s 2s/step - loss: 2.4506 - accuracy: 0.5111 - val_loss: 3.0424 - val_accuracy: 0.3636
+EVALUATING:  EfficientNetV2B1
+3/3 [==============================] - 16s 3s/step - loss: 2.7573 - accuracy: 0.4889 - val_loss: 0.9049 - val_accuracy: 0.3636
+EVALUATING:  EfficientNetV2B2
+3/3 [==============================] - 15s 2s/step - loss: 2.5841 - accuracy: 0.5333 - val_loss: 3.7603 - val_accuracy: 0.3636
+EVALUATING:  EfficientNetV2B3
+3/3 [==============================] - 19s 3s/step - loss: 1.9647 - accuracy: 0.5556 - val_loss: 1.4789 - val_accuracy: 0.3636
+EVALUATING:  EfficientNetV2S
+3/3 [==============================] - 23s 4s/step - loss: 1.6457 - accuracy: 0.5778 - val_loss: 1.0695 - val_accuracy: 0.6364
+EVALUATING:  EfficientNetV2M
+3/3 [==============================] - 37s 6s/step - loss: 0.9795 - accuracy: 0.4000 - val_loss: 0.6522 - val_accuracy: 0.6364
+EVALUATING:  EfficientNetV2L
+3/3 [==============================] - 59s 11s/step - loss: 0.8147 - accuracy: 0.5333 - val_loss: 0.6594 - val_accuracy: 0.6364
+erasing model  ResNet152 with val accuracy  [0.3636363744735718]
+erasing model  MobileNetV2 with val accuracy  [0.3636363744735718]
+erasing model  DenseNet169 with val accuracy  [0.3636363744735718]
+erasing model  EfficientNetB4 with val accuracy  [0.3636363744735718]
+erasing model  EfficientNetB5 with val accuracy  [0.3636363744735718]
+erasing model  EfficientNetB6 with val accuracy  [0.3636363744735718]
+erasing model  EfficientNetV2B0 with val accuracy  [0.3636363744735718]
+erasing model  EfficientNetV2B1 with val accuracy  [0.3636363744735718]
+erasing model  EfficientNetV2B2 with val accuracy  [0.3636363744735718]
+erasing model  EfficientNetV2B3 with val accuracy  [0.3636363744735718]
+erasing model  DenseNet201 with val accuracy  [0.4545454680919647]
+erasing model  VGG19 with val accuracy  [0.6363636255264282]
+erasing model  ResNet50 with val accuracy  [0.6363636255264282]
+erasing model  ResNet101V2 with val accuracy  [0.6363636255264282]
+erasing model  ResNet152V2 with val accuracy  [0.6363636255264282]
+erasing model  EfficientNetB0 with val accuracy  [0.6363636255264282]
+16  models remaining
+EVALUATING:  EfficientNetB1
+3/3 [==============================] - 3s 1s/step - loss: 1.7937 - accuracy: 0.5111 - val_loss: 0.9220 - val_accuracy: 0.3636
+EVALUATING:  EfficientNetB2
+3/3 [==============================] - 3s 1s/step - loss: 1.1511 - accuracy: 0.6000 - val_loss: 0.9277 - val_accuracy: 0.3636
+EVALUATING:  EfficientNetV2S
+3/3 [==============================] - 6s 2s/step - loss: 0.9242 - accuracy: 0.6000 - val_loss: 0.5516 - val_accuracy: 0.8182
+EVALUATING:  EfficientNetV2M
+3/3 [==============================] - 11s 4s/step - loss: 0.7885 - accuracy: 0.5111 - val_loss: 0.7233 - val_accuracy: 0.3636
+EVALUATING:  EfficientNetV2L
+3/3 [==============================] - 21s 8s/step - loss: 0.7018 - accuracy: 0.5556 - val_loss: 0.6661 - val_accuracy: 0.6364
+EVALUATING:  Xception
+3/3 [==============================] - 7s 2s/step - loss: 1.1692 - accuracy: 0.6889 - val_loss: 0.2485 - val_accuracy: 0.9091
+EVALUATING:  ResNet50V2
+3/3 [==============================] - 6s 2s/step - loss: 0.9072 - accuracy: 0.8444 - val_loss: 0.0559 - val_accuracy: 1.0000
+EVALUATING:  InceptionV3
+3/3 [==============================] - 4s 2s/step - loss: 2.8035 - accuracy: 0.6222 - val_loss: 3.7784 - val_accuracy: 0.6364
+EVALUATING:  MobileNet
+3/3 [==============================] - 2s 508ms/step - loss: 1.0645 - accuracy: 0.7778 - val_loss: 1.1036 - val_accuracy: 0.7273
+EVALUATING:  ResNet101
+3/3 [==============================] - 13s 4s/step - loss: 0.8397 - accuracy: 0.6444 - val_loss: 0.2417 - val_accuracy: 0.9091
+EVALUATING:  InceptionResNetV2
+3/3 [==============================] - 10s 3s/step - loss: 1.2992 - accuracy: 0.8222 - val_loss: 3.2328 - val_accuracy: 0.5455
+EVALUATING:  EfficientNetB3
+3/3 [==============================] - 6s 2s/step - loss: 1.7154 - accuracy: 0.5556 - val_loss: 0.4330 - val_accuracy: 0.8182
+EVALUATING:  DenseNet121
+3/3 [==============================] - 8s 3s/step - loss: 0.9214 - accuracy: 0.7111 - val_loss: 2.1894 - val_accuracy: 0.3636
+EVALUATING:  NASNetMobile
+3/3 [==============================] - 3s 968ms/step - loss: 1.0090 - accuracy: 0.7778 - val_loss: 1.7564 - val_accuracy: 0.3636
+EVALUATING:  EfficientNetB7
+3/3 [==============================] - 20s 7s/step - loss: 1.4030 - accuracy: 0.5778 - val_loss: 0.4325 - val_accuracy: 0.7273
+EVALUATING:  VGG16
+3/3 [==============================] - 17s 6s/step - loss: 0.5883 - accuracy: 0.6667 - val_loss: 0.4794 - val_accuracy: 0.7273
+erasing model  EfficientNetB1 with val accuracy  [0.3636363744735718]
+erasing model  EfficientNetB2 with val accuracy  [0.3636363744735718]
+erasing model  EfficientNetV2M with val accuracy  [0.3636363744735718]
+erasing model  DenseNet121 with val accuracy  [0.3636363744735718]
+erasing model  NASNetMobile with val accuracy  [0.3636363744735718]
+erasing model  InceptionResNetV2 with val accuracy  [0.5454545617103577]
+erasing model  EfficientNetV2L with val accuracy  [0.6363636255264282]
+erasing model  InceptionV3 with val accuracy  [0.6363636255264282]
+8  models remaining
+EVALUATING:  MobileNet
+3/3 [==============================] - 2s 546ms/step - loss: 0.2415 - accuracy: 0.9111 - val_loss: 0.1042 - val_accuracy: 0.9091
+EVALUATING:  EfficientNetB7
+3/3 [==============================] - 19s 7s/step - loss: 0.2523 - accuracy: 0.8889 - val_loss: 0.2404 - val_accuracy: 0.9091
+EVALUATING:  VGG16
+3/3 [==============================] - 16s 6s/step - loss: 0.4641 - accuracy: 0.8889 - val_loss: 0.4378 - val_accuracy: 0.8182
+EVALUATING:  EfficientNetV2S
+3/3 [==============================] - 7s 3s/step - loss: 0.7698 - accuracy: 0.5556 - val_loss: 0.7465 - val_accuracy: 0.6364
+EVALUATING:  EfficientNetB3
+3/3 [==============================] - 6s 2s/step - loss: 1.0705 - accuracy: 0.5778 - val_loss: 0.3961 - val_accuracy: 0.9091
+EVALUATING:  Xception
+3/3 [==============================] - 7s 2s/step - loss: 0.2691 - accuracy: 0.9333 - val_loss: 0.2607 - val_accuracy: 0.8182
+EVALUATING:  ResNet101
+3/3 [==============================] - 12s 5s/step - loss: 0.3251 - accuracy: 0.8667 - val_loss: 0.1883 - val_accuracy: 0.9091
+EVALUATING:  ResNet50V2
+3/3 [==============================] - 6s 2s/step - loss: 0.4509 - accuracy: 0.8889 - val_loss: 0.0847 - val_accuracy: 1.0000
+erasing model  EfficientNetV2S with val accuracy  [0.6363636255264282]
+erasing model  VGG16 with val accuracy  [0.8181818127632141]
+erasing model  Xception with val accuracy  [0.8181818127632141]
+erasing model  MobileNet with val accuracy  [0.9090909361839294]
+4  models remaining
+EVALUATING:  EfficientNetB7
+3/3 [==============================] - 19s 7s/step - loss: 0.4516 - accuracy: 0.8222 - val_loss: 1.2159 - val_accuracy: 0.6364
+EVALUATING:  EfficientNetB3
+3/3 [==============================] - 5s 2s/step - loss: 0.5810 - accuracy: 0.7111 - val_loss: 0.4024 - val_accuracy: 0.8182
+EVALUATING:  ResNet101
+3/3 [==============================] - 11s 4s/step - loss: 0.1818 - accuracy: 0.9778 - val_loss: 0.3476 - val_accuracy: 0.8182
+EVALUATING:  ResNet50V2
+3/3 [==============================] - 6s 2s/step - loss: 0.1140 - accuracy: 0.9333 - val_loss: 0.1996 - val_accuracy: 0.8182
+erasing model  EfficientNetB7 with val accuracy  [0.6363636255264282]
+erasing model  EfficientNetB3 with val accuracy  [0.8181818127632141]
+2  models remaining
+EVALUATING:  ResNet101
+3/3 [==============================] - 13s 5s/step - loss: 0.1978 - accuracy: 0.9333 - val_loss: 0.2020 - val_accuracy: 0.9091
+EVALUATING:  ResNet50V2
+3/3 [==============================] - 6s 2s/step - loss: 0.2264 - accuracy: 0.9333 - val_loss: 0.2373 - val_accuracy: 0.8182
+erasing model  ResNet50V2 with val accuracy  [0.8181818127632141]
+CHOSEN MODEL:  ResNet101

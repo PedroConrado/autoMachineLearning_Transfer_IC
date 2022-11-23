@@ -1,4 +1,3 @@
-from tabnanny import verbose
 import tensorflow as tf
 from Base.createModel import createModel
 import warnings

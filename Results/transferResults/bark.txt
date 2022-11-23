@@ -1,0 +1,145 @@
+EVALUATING:  VGG16
+EVALUATING:  ResNet50V2
+279/279 [==============================] - 460s 2s/step - loss: 1.7655 - accuracy: 0.6697 - val_loss: 1.0531 - val_accuracy: 0.7937    
+EVALUATING:  ResNet101
+279/279 [==============================] - 987s 4s/step - loss: 3.7008 - accuracy: 0.1851 - val_loss: 2.7571 - val_accuracy: 0.2933    
+EVALUATING:  ResNet101V2279/279 [==============================] - 941s 3s/step - loss: 1.9214 - accuracy: 0.6610 - val_loss: 1.0189 - val_accuracy: 0.8152    
+EVALUATING:  ResNet152279/279 [==============================] - 1560s 6s/step - loss: 3.7729 - accuracy: 0.1779 - val_loss: 3.4689 - val_accuracy: 0.2242   
+EVALUATING:  ResNet152V2279/279 [==============================] - 1548s 5s/step - loss: 1.4480 - accuracy: 0.6989 - val_loss: 0.7403 - val_accuracy: 0.8090
+EVALUATING:  InceptionV3
+279/279 [==============================] - 392s 1s/step - loss: 5.3860 - accuracy: 0.4873 - val_loss: 3.8562 - val_accuracy: 0.5534
+EVALUATING:  InceptionResNetV2
+279/279 [==============================] - 928s 3s/step - loss: 4.7497 - accuracy: 0.4685 - val_loss: 2.5264 - val_accuracy: 0.6269
+EVALUATING:  MobileNet
+279/279 [==============================] - 147s 517ms/step - loss: 1.6508 - accuracy: 0.6946 - val_loss: 0.6853 - val_accuracy: 0.8395
+EVALUATING:  MobileNetV2
+279/279 [==============================] - 147s 515ms/step - loss: 1.8343 - accuracy: 0.6861 - val_loss: 1.0487 - val_accuracy: 0.7839
+EVALUATING:  DenseNet121
+279/279 [==============================] - 641s 2s/step - loss: 1.6258 - accuracy: 0.6469 - val_loss: 0.7807 - val_accuracy: 0.7883
+EVALUATING:  DenseNet169
+279/279 [==============================] - 728s 3s/step - loss: 1.8062 - accuracy: 0.6652 - val_loss: 0.7667 - val_accuracy: 0.7973
+EVALUATING:  DenseNet201
+279/279 [==============================] - 854s 3s/step - loss: 1.6689 - accuracy: 0.6661 - val_loss: 0.7908 - val_accuracy: 0.8161
+EVALUATING:  NASNetMobile
+279/279 [==============================] - 198s 661ms/step - loss: 1.7483 - accuracy: 0.6153 - val_loss: 1.0266 - val_accuracy: 0.7525
+EVALUATING:  EfficientNetB0
+279/279 [==============================] - 235s 821ms/step - loss: 4.9723 - accuracy: 0.0338 - val_loss: 4.6938 - val_accuracy: 0.0269
+EVALUATING:  EfficientNetB1
+279/279 [==============================] - 328s 1s/step - loss: 4.8731 - accuracy: 0.0356 - val_loss: 4.3018 - val_accuracy: 0.0422
+EVALUATING:  EfficientNetB2
+279/279 [==============================] - 386s 1s/step - loss: 4.4865 - accuracy: 0.0542 - val_loss: 3.9408 - val_accuracy: 0.0843
+EVALUATING:  EfficientNetB3
+279/279 [==============================] - 549s 2s/step - loss: 5.6163 - accuracy: 0.0639 - val_loss: 4.8423 - val_accuracy: 0.1166
+EVALUATING:  EfficientNetB4
+279/279 [==============================] - 912s 3s/step - loss: 5.5277 - accuracy: 0.0518 - val_loss: 5.9281 - val_accuracy: 0.0475
+EVALUATING:  EfficientNetB5
+279/279 [==============================] - 1212s 4s/step - loss: 6.4300 - accuracy: 0.0587 - val_loss: 4.5386 - val_accuracy: 0.0897
+EVALUATING:  EfficientNetB6
+279/279 [==============================] - 1870s 7s/step - loss: 7.2388 - accuracy: 0.0567 - val_loss: 5.8245 - val_accuracy: 0.0852   
+EVALUATING:  EfficientNetV2B0
+279/279 [==============================] - 198s 676ms/step - loss: 5.2040 - accuracy: 0.0410 - val_loss: 4.3438 - val_accuracy: 0.0798 
+EVALUATING:  EfficientNetV2B1
+279/279 [==============================] - 262s 900ms/step - loss: 5.4238 - accuracy: 0.0345 - val_loss: 5.1717 - val_accuracy: 0.0215 
+EVALUATING:  EfficientNetV2B2
+279/279 [==============================] - 289s 995ms/step - loss: 4.5422 - accuracy: 0.0553 - val_loss: 4.0795 - val_accuracy: 0.0762 
+EVALUATING:  EfficientNetV2B3
+279/279 [==============================] - 380s 1s/step - loss: 4.3165 - accuracy: 0.0840 - val_loss: 3.5373 - val_accuracy: 0.1381    
+EVALUATING:  EfficientNetV2S
+279/279 [==============================] - 630s 2s/step - loss: 3.2176 - accuracy: 0.2270 - val_loss: 2.4052 - val_accuracy: 0.3857
+EVALUATING:  EfficientNetV2M
+279/279 [==============================] - 1096s 4s/step - loss: 4.1078 - accuracy: 0.0408 - val_loss: 3.9400 - val_accuracy: 0.0619
+EVALUATING:  EfficientNetV2L
+279/279 [==============================] - 2206s 8s/step - loss: 3.9571 - accuracy: 0.0524 - val_loss: 3.6802 - val_accuracy: 0.0574
+erasing model  EfficientNetV2B1 with val accuracy  [0.021524664014577866]
+erasing model  EfficientNetB0 with val accuracy  [0.026905829086899757]
+erasing model  EfficientNetB6 with val accuracy  [0.04125560447573662]
+erasing model  EfficientNetB1 with val accuracy  [0.042152468115091324]
+erasing model  EfficientNetB4 with val accuracy  [0.047533631324768066]
+erasing model  EfficientNetV2L with val accuracy  [0.05739910155534744]
+erasing model  EfficientNetV2M with val accuracy  [0.061883408576250076]
+erasing model  EfficientNetV2B2 with val accuracy  [0.07623318582773209]
+erasing model  EfficientNetV2B0 with val accuracy  [0.07982062548398972]
+erasing model  EfficientNetB2 with val accuracy  [0.08430493623018265]
+erasing model  EfficientNetB7 with val accuracy  [0.08520179241895676]
+erasing model  EfficientNetB5 with val accuracy  [0.08968609571456909]
+erasing model  EfficientNetB3 with val accuracy  [0.1165919303894043]
+erasing model  EfficientNetV2B3 with val accuracy  [0.13811659812927246]
+erasing model  ResNet152 with val accuracy  [0.22421523928642273]
+erasing model  ResNet101 with val accuracy  [0.29327353835105896]
+16  models remaining
+EVALUATING:  ResNet50
+279/279 [==============================] - 624s 2s/step - loss: 3.0577 - accuracy: 0.3094 - val_loss: 2.4332 - val_accuracy: 0.3848
+EVALUATING:  EfficientNetV2S
+279/279 [==============================] - 569s 2s/step - loss: 2.4916 - accuracy: 0.3590 - val_loss: 2.3746 - val_accuracy: 0.4314
+EVALUATING:  InceptionV3
+279/279 [==============================] - 364s 1s/step - loss: 1.8884 - accuracy: 0.7468 - val_loss: 2.1694 - val_accuracy: 0.7256
+EVALUATING:  InceptionResNetV2
+279/279 [==============================] - 883s 3s/step - loss: 1.9533 - accuracy: 0.6993 - val_loss: 2.2397 - val_accuracy: 0.7193
+EVALUATING:  VGG19
+279/279 [==============================] - 1904s 7s/step - loss: 0.8551 - accuracy: 0.7553 - val_loss: 0.6548 - val_accuracy: 0.8126
+EVALUATING:  NASNetMobile
+279/279 [==============================] - 181s 650ms/step - loss: 0.7324 - accuracy: 0.8172 - val_loss: 0.9810 - val_accuracy: 0.7794
+EVALUATING:  MobileNetV2
+279/279 [==============================] - 124s 446ms/step - loss: 0.6731 - accuracy: 0.8626 - val_loss: 0.6001 - val_accuracy: 0.8771
+EVALUATING:  DenseNet121
+279/279 [==============================] - 543s 2s/step - loss: 0.5245 - accuracy: 0.8635 - val_loss: 0.3434 - val_accuracy: 0.9004
+EVALUATING:  Xception
+279/279 [==============================] - 609s 2s/step - loss: 0.4203 - accuracy: 0.8806 - val_loss: 0.7517 - val_accuracy: 0.8242
+EVALUATING:  ResNet50V2
+279/279 [==============================] - 462s 2s/step - loss: 0.6355 - accuracy: 0.8620 - val_loss: 0.7785 - val_accuracy: 0.8637
+EVALUATING:  DenseNet169
+279/279 [==============================] - 647s 2s/step - loss: 0.4866 - accuracy: 0.8846 - val_loss: 0.5953 - val_accuracy: 0.8682
+EVALUATING:  ResNet152V2
+279/279 [==============================] - 1322s 5s/step - loss: 0.4892 - accuracy: 0.8846 - val_loss: 0.6854 - val_accuracy: 0.8735
+EVALUATING:  ResNet101V2
+279/279 [==============================] - 879s 3s/step - loss: 0.6816 - accuracy: 0.8631 - val_loss: 1.1989 - val_accuracy: 0.8296
+EVALUATING:  DenseNet201
+279/279 [==============================] - 843s 3s/step - loss: 0.4287 - accuracy: 0.8882 - val_loss: 0.5080 - val_accuracy: 0.8825
+EVALUATING:  VGG16
+279/279 [==============================] - 1483s 5s/step - loss: 0.6512 - accuracy: 0.8165 - val_loss: 0.4986 - val_accuracy: 0.8511
+EVALUATING:  MobileNet
+279/279 [==============================] - 127s 456ms/step - loss: 0.4652 - accuracy: 0.8907 - val_loss: 0.4779 - val_accuracy: 0.8870
+erasing model  ResNet50 with val accuracy  [0.38475337624549866]
+erasing model  EfficientNetV2S with val accuracy  [0.4313901364803314]
+erasing model  InceptionResNetV2 with val accuracy  [0.7192825078964233]
+erasing model  InceptionV3 with val accuracy  [0.7255605459213257]
+erasing model  NASNetMobile with val accuracy  [0.7793722152709961]
+erasing model  VGG19 with val accuracy  [0.8125560283660889]
+erasing model  Xception with val accuracy  [0.8242152333259583]
+erasing model  ResNet101V2 with val accuracy  [0.8295964002609253]
+8  models remaining
+EVALUATING:  VGG16
+279/279 [==============================] - 1483s 5s/step - loss: 0.4873 - accuracy: 0.8615 - val_loss: 0.4208 - val_accuracy: 0.8789
+EVALUATING:  ResNet50V2
+279/279 [==============================] - 465s 2s/step - loss: 0.4263 - accuracy: 0.9032 - val_loss: 0.8990 - val_accuracy: 0.8538
+EVALUATING:  DenseNet169
+279/279 [==============================] - 651s 2s/step - loss: 0.3275 - accuracy: 0.9211 - val_loss: 0.4523 - val_accuracy: 0.9040
+EVALUATING:  ResNet152V2
+279/279 [==============================] - 1328s 5s/step - loss: 0.3630 - accuracy: 0.9160 - val_loss: 0.4691 - val_accuracy: 0.8816
+EVALUATING:  MobileNetV2
+279/279 [==============================] - 124s 444ms/step - loss: 0.4357 - accuracy: 0.9068 - val_loss: 0.9801 - val_accuracy: 0.8646
+EVALUATING:  DenseNet201
+279/279 [==============================] - 840s 3s/step - loss: 0.2739 - accuracy: 0.9249 - val_loss: 0.4122 - val_accuracy: 0.9148
+EVALUATING:  MobileNet
+279/279 [==============================] - 127s 455ms/step - loss: 0.3068 - accuracy: 0.9314 - val_loss: 0.5001 - val_accuracy: 0.8942
+EVALUATING:  DenseNet121
+279/279 [==============================] - 539s 2s/step - loss: 0.3619 - accuracy: 0.9014 - val_loss: 0.5224 - val_accuracy: 0.8717
+erasing model  ResNet50V2 with val accuracy  [0.8538116812705994]
+erasing model  MobileNetV2 with val accuracy  [0.8645740151405334]
+erasing model  DenseNet121 with val accuracy  [0.8717488646507263]
+erasing model  VGG16 with val accuracy  [0.878923773765564]
+4  models remaining
+EVALUATING:  ResNet152V2
+279/279 [==============================] - 1315s 5s/step - loss: 0.2941 - accuracy: 0.9335 - val_loss: 0.6108 - val_accuracy: 0.8807
+EVALUATING:  MobileNet
+279/279 [==============================] - 125s 448ms/step - loss: 0.2197 - accuracy: 0.9469 - val_loss: 0.7277 - val_accuracy: 0.8735
+279/279 [==============================] - 912s 3s/step - loss: 0.2068 - accuracy: 0.9451 - val_loss: 0.3188 - val_accuracy: 0.9247    
+erasing model  MobileNet with val accuracy  [0.8735426068305969]
+erasing model  ResNet152V2 with val accuracy  [0.8807175159454346]
+2  models remaining
+EVALUATING:  DenseNet169
+279/279 [==============================] - 729s 3s/step - loss: 0.2094 - accuracy: 0.9449 - val_loss: 0.3667 - val_accuracy: 0.9202    
+EVALUATING:  DenseNet201
+279/279 [==============================] - 984s 4s/step - loss: 0.1603 - accuracy: 0.9590 - val_loss: 0.3757 - val_accuracy: 0.9175    
+erasing model  DenseNet201 with val accuracy  [0.9174888134002686]
+CHOSEN MODEL:  DenseNet169
