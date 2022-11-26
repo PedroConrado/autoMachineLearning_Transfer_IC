@@ -2,6 +2,7 @@
 projeto de IC em autoML e transfer learning
 
 Bases de dados originais utilizadas:
+
 https://www.kaggle.com/datasets/die9origephit/children-vs-adults-images
 https://www.kaggle.com/datasets/saurabhshahane/barkvn50
 https://www.kaggle.com/datasets/paultimothymooney/blood-cells
