@@ -1,5 +1,4 @@
-# autoMachineLearning_Transfer_IC
-projeto de IC em autoML e transfer learning
+# Projeto de IC em autoML e transfer learning
 
 Bases de dados originais utilizadas:
 
