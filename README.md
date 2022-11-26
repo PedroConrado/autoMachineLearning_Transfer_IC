@@ -1,5 +1,9 @@
 # Projeto de IC em autoML e transfer learning
 
+Pypi:
+
+https://pypi.org/project/transfer-domain-adaptation/
+
 Bases de dados originais utilizadas:
 
 https://www.kaggle.com/datasets/die9origephit/children-vs-adults-images
