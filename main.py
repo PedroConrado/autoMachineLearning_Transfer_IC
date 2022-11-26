@@ -81,4 +81,4 @@ allModelsList = [
 'EfficientNetV2M',
 'EfficientNetV2L']
 
-model = transfer(num_classes, IMG_WIDTH, IMG_HEIGHT, train_ds, val_ds, metr, opti, loss, trainingEpochs=5, fineTune = True, fineTuneLearningRate=0.000001, baseModelList=allModelsList, verbose=False)
+model = transfer(num_classes, IMG_WIDTH, IMG_HEIGHT, train_ds, val_ds, metr, opti, loss, trainingEpochs=0, fineTune = False, fineTuneLearningRate=0.000001, baseModelList=allModelsList, verbose=False)

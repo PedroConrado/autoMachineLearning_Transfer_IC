@@ -5,7 +5,7 @@ IMG_WIDTH   = 224
 BATCH_SIZE  = 16
 SEED        = 1234
 
-strPath = ""
+strPath = "./Images/Inside"
 
 train_ds = tf.keras.preprocessing.image_dataset_from_directory(
   strPath,
@@ -48,7 +48,7 @@ metr = ['accuracy']
 
 baseModel = tf.keras.Sequential([
     tf.keras.layers.Flatten(input_shape=(IMG_WIDTH, IMG_HEIGHT, 3)),
-    tf.keras.layers.Dense(128, activation='relu'),
+    tf.keras.layers.Dense(num_classes*10, activation='relu'),
     tf.keras.layers.Dense(num_classes)
 ])
 

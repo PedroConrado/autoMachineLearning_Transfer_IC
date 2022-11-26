@@ -6,7 +6,7 @@ IMG_WIDTH   = 224
 BATCH_SIZE  = 16
 SEED        = 1234
 
-strPath = "./Images/Inside"
+strPath = ""
 
 train_ds = tf.keras.preprocessing.image_dataset_from_directory(
   strPath,
