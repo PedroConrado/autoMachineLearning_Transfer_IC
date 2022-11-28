@@ -2,7 +2,7 @@
 
 Pypi:
 
-https://pypi.org/project/transfer-domain-adaptation/
+https://pypi.org/project/modelChooserTransfer/
 
 Bases de dados originais utilizadas:
 
